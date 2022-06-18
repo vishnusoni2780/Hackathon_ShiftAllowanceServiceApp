@@ -1,0 +1,27 @@
+# Problem Statement 2:
+
+Shift allowance service (Console) app (Python) As we are growing in our nearshore services, we would like to have a system which can support services team to manage the data and take care of shift allowance effectively.
+
+Following data are stored in DB against shift details.
+
+a. Name
+b. Reporting Manager
+c. Project
+d. Location
+e. Gender
+f. Start Date
+g. Recurring (Yes/No)
+h. End Date
+i. Start Time
+
+
+# Create an application which can take care of following automations
+
+1. Email should be sent to manager, employee, HR and accounts team whenever a new shift record is added to the system
+2. Every 15th and 22nd day of the month manager should get email notification to update the records for their reportees. List of managers is to be identified from shift details.
+3. On request shift details should be exported in excel format, if there are multiple details for an employee, pick details for the current month
+4. Calculate shift allowance based on Start time and End time a. Use this logic to calculate Shift allowance%
+
+	i. 2< # of hours above 10:00 PM < 3 : 10 % of total CTC
+	ii. 3< # of hours post 10:00 PM < 5/2 % of total CTC
+	iii. 5< # of hours post 10:00 PM: 50% of total CTC
