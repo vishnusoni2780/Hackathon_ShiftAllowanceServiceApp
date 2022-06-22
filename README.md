@@ -1,6 +1,9 @@
 # Hackathon_ShiftAllowanceServiceApp
 # Shift Allowance Service App - Console based using Python.
 
+# PPT presentation for this project
+https://docs.google.com/presentation/d/1UqRwlUifnAjKL4NpmlsCbZ39D5LqnuQ3/edit?usp=drivesdk&ouid=117655755480663494982&rtpof=true&sd=true
+
 # Packages
 - first of all use: 'pip install -r requirements.txt'
 - For a Virtual Testing env in python:
