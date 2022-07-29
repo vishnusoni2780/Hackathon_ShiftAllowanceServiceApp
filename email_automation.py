@@ -6,7 +6,7 @@
 
 test gmail account:
 email = pythontestforproject@gmail.com
-pw = passwd@pythontest*
+pw = <>
 
 email_addr= input("Sender's Email: ")
 passwd= input("Sender's password: ")
